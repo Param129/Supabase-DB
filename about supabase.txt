@@ -1,0 +1,36 @@
+1. Open Source Nature:
+One of the defining features of Supabase is that it is open source. This means that the source code is freely available and can be inspected, modified, and extended by developers. This open approach ensures transparency and allows users to tailor Supabase to their specific project needs.
+
+2. Built on Postgres:
+Supabase is built on top of PostgreSQL, a powerful and highly respected relational database system. This choice of foundation provides Supabase with robustness, scalability, and speed. PostgreSQL is known for its performance and reliability, making it an excellent choice for demanding applications.
+
+3. Real-time GraphQL:
+Supabase also offers real-time GraphQL, which enables you to build powerful and flexible APIs for your applications. GraphQL allows clients to request exactly the data they need, reducing over-fetching and under-fetching of data.
+
+4. Integration with Popular Frameworks:
+Supabase provides SDKs and libraries for various programming languages and frameworks, making it easy to integrate with technologies like React, Angular, Vue.js, and, Flutter.
+
+
+
+
+
+The Need for Speed: Supabase vs. Firebase
+
+1.Open Source Freedom:
+Supabase is open-source, giving you the freedom to customize and extend it as needed, without vendor lock-in. Firebase, on the other hand, can sometimes limit your flexibility due to its closed-source nature.
+
+2. Performance:
+
+Supabase’s Postgres-based architecture is renowned for its speed and reliability, making it an ideal choice for high-performance applications. Firebase, while efficient, may not match Supabase’s raw performance in certain scenarios.
+
+3. Real-Time Data:
+
+Supabase offers real-time data synchronization out of the box, providing instant updates to your app when data changes occur. Firebase, while capable of real-time data, often requires a more complex setup for similar functionality.
+
+pw =x2QbpiqO8TJIFgjj
+
+
+* very important we can provide RLS(row level security ) in Supabase which is not available in Firebase. RLS is a feature that allows you to
+restrict access to data based on user roles or permissions, ensuring that users can only see data that they are authorized to access.
+Here we define policies that control access to data based on user roles or permissions. This is a very important feature for any application that requires data security and compliance.
+for example, we can create a policy that allows only users with the role "admin" to access data
